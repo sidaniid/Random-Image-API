@@ -6,7 +6,7 @@ const fs = require('fs');
 const multer = require('multer');
 const path = require('path')
 
-let baseURL = 'http://localhost:3000';
+let baseURL = 'https://r-image.dannsdb.id';
 
 app.use(express.static('public'))
 app.set('view engine', 'ejs');
