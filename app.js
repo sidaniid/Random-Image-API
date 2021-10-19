@@ -16,6 +16,10 @@ app.get('/',async (req, res) => {
   res.render('index')
 })
 
+app.get('/',async (req, res) => {
+  res.render('doc')
+})
+
 app.get('/api/random', (req, res) => {
 
   let images = fs.readdirSync('./public/random')
