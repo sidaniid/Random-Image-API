@@ -16,7 +16,7 @@ app.get('/',async (req, res) => {
   res.render('index')
 })
 
-app.get('/',async (req, res) => {
+app.get('/doc',async (req, res) => {
   res.render('doc')
 })
 
