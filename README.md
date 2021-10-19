@@ -6,7 +6,7 @@ Random Image API - The internet's biggest collection of open source random pictu
 ## API Endpoint
 
 ```
-http://localhost:3000/image/catagory
+https://r-image.dannsdb.id/api/category
 ```
 
 ## Installation & Setup
