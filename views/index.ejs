@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Random Image API</title>
+    <meta name="description" content="Random Image API - The internet's biggest collection of open source random pictures." />
+
+    <link rel="shortcut icon" type=image/x-icon href=https://cdn.dannsdb.id/upload/images/favicon/favicon.ico>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+
+<body>
+
+    <!--Header Section-->
+    <section class="bg-gradient pt-5 pb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-row align-items-center justify-content-between">
+                    <div class="heading-brand">Image API</div>
+                    <a href="doc" class="btn btn-dark">API Docs</a>
+                </div>
+            </div>
+            <div class="row mt-6">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1>Random Image API</h1>
+                    <p class="lead mb-5">The internet's biggest collection of <b>open source random pictures</b>.</p>
+                    <a href="https://github.com/dannsdb/random-image" class="btn btn-success svg-icon">
+                        <em class="mr-2" data-feather="github"></em>
+                        Contribute
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-9 mx-auto">
+                    <h2>Get image</h2>
+                    <p>Recieve one image url from your endpoint of choice.</p>
+                    <div class="code-window">
+                        <code>http://localhost:3000/api/category</code>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-9 mx-auto">
+                    <h3>Response</h3>
+                    <p>Here is an example response for this endpoint</p>
+                    <div class="code-window">
+                        <div class="dots">
+                            <div class="red"></div>
+                            <div class="orange"></div>
+                            <div class="green"></div>
+                        </div>
+                        <pre class="language-javascript line-numbers"><code class="language-javascript">{
+    "data": {
+        "status": 200,
+        "image": "http://localhost:3000/random/4444.jpg"
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Features Section-->
+<section class="py-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2 class="text-center text-md-left">Image Categories</h2>
+                <div class="row feature-grid">
+                    <div class="col-sm-6">
+                        <div class="media">
+                            <div class="code-window">
+                                <a href="./api/cat">Cat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="media">
+                            <div class="code-window">
+                                <a href="./api/estetik">Estetik</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="media">
+                            <div class="code-window">
+                                <a href="./api/dmkr">Meme Dahaga Meme Kategori Reborn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="media">
+                            <div class="code-window">
+                                <a href="./api/memesuki">Meme shitmeme untuk kebutuhan iman</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--footer-->
+    <footer class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="doc">API Documentation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-6 mx-auto text-muted text-center small-xl">
+                    Made with <i class="fa fa-heart" aria-hidden=true></i> & <i class="fa fa-coffee" aria-hidden=true></i> <a href="https://dannsdb.id/" target="_blank" >Muhamad Ramdani</a> , <a href="https://github.com/indo2010re" target="_blank" >Coupdegrace</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
