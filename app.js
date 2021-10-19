@@ -16,6 +16,14 @@ app.get('/',async (req, res) => {
   res.render('index')
 })
 
+app.get('/api/random', (req, res) => {
+
+  let images = fs.readdirSync('./public/random')
+  let randomImage = images[Math.floor(Math.random() * images.length)]
+  let url = baseURL+'/random/'+randomImage;
+   res.status(200).send({data: {status:200, image: url }})
+})
+
 app.get('/api/cat', (req, res) => {
 
   let images = fs.readdirSync('./public/cat')
@@ -24,11 +32,27 @@ app.get('/api/cat', (req, res) => {
    res.status(200).send({data: {status:200, image: url }})
 })
 
-app.get('/api/random', (req, res) => {
+app.get('/api/estetik', (req, res) => {
 
-  let images = fs.readdirSync('./public/random')
+  let images = fs.readdirSync('./public/estetik')
   let randomImage = images[Math.floor(Math.random() * images.length)]
-  let url = baseURL+'/random/'+randomImage;
+  let url = baseURL+'/estetik/'+randomImage;
+   res.status(200).send({data: {status:200, image: url }})
+})
+
+app.get('/api/dmkr', (req, res) => {
+
+  let images = fs.readdirSync('./public/dmkr')
+  let randomImage = images[Math.floor(Math.random() * images.length)]
+  let url = baseURL+'/dmkr/'+randomImage;
+   res.status(200).send({data: {status:200, image: url }})
+})
+
+app.get('/api/suki', (req, res) => {
+
+  let images = fs.readdirSync('./public/suki')
+  let randomImage = images[Math.floor(Math.random() * images.length)]
+  let url = baseURL+'/suki/'+randomImage;
    res.status(200).send({data: {status:200, image: url }})
 })
 
