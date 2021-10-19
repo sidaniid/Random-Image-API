@@ -60,6 +60,14 @@ app.get('/api/suki', (req, res) => {
    res.status(200).send({data: {status:200, image: url }})
 })
 
+app.get('/api/neko', (req, res) => {
+
+  let images = fs.readdirSync('./public/neko')
+  let randomImage = images[Math.floor(Math.random() * images.length)]
+  let url = baseURL+'/neko/'+randomImage;
+   res.status(200).send({data: {status:200, image: url }})
+})
+
 app.use((req, res) => {
   res.sendFile(path.join(__dirname+'/public/404.html'));
 });
