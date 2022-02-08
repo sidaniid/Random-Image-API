@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dannsdb/Random-Image-API.git"
+    "url": "git+https://github.com/sidaniid/Random-Image-API.git"
   },
   "keywords": [
     "api"
@@ -16,9 +16,9 @@
   "author": "Muhamad Ramdani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dannsdb/Random-Image-API/issues"
+    "url": "https://github.com/sidaniid/Random-Image-API/issues"
   },
-  "homepage": "https://github.com/dannsdb/Random-Image-API#readme",
+  "homepage": "https://github.com/sidaniid/Random-Image-API#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "ejs": "^3.1.6",
