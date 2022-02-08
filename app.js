@@ -6,7 +6,7 @@ const fs = require('fs');
 const multer = require('multer');
 const path = require('path')
 
-let baseURL = 'https://r-image.dannsdb.id';
+let baseURL = 'https://r-image-api.herokuapp.com';
 
 app.use(express.static('public'))
 app.set('view engine', 'ejs');
